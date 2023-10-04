@@ -6,6 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  price = 100;
+  bbb = 10;
+
+  constructor() {
+    this.price = this.add100()
+  }
+
+  add100() {
+    let number = 10;
+    number = number +100;
+
+    return number;
+  }
 }
 
 
