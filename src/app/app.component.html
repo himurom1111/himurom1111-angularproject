@@ -1,16 +1,22 @@
-<app-top-bar></app-top-bar>
+
 <div class="container">
   <router-outlet></router-outlet>
 </div>
 <!-- <div class="font-red">クラスと組み合わせるああああああ</div> -->
 
-<!-- <h1>{{ price }}</h1> -->
+
+
+
+
 <a target="_blank" href="https://www.google.com">Google</a>
 <br>
 <a routerLink="/">ホーム</a>
 <br>
-<a routerLink="/topbar">トップバー呼び出し</a>
-
+<a routerLink="/topbar1">トップバー呼び出し1</a><br>
+<a routerLink="/topbar2">トップバー呼び出し2</a><br>
+<h1>{{ price }}</h1>
+<button (click)="add100()">ボタン</button><br><br>
+<button (click)="mina100()">ボタン</button><br>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
