@@ -2,12 +2,68 @@
 <div class="container">
   <router-outlet></router-outlet>
 </div>
+
+<h2>&#9632;入力</h2>
+<hr>
+
+<h2>・帳票の種類：
+  <input type="radio" name="report_type" value="BXXR0001" checked="checked">BXXR0001
+  <input type="radio" name="report_type" value="BXXR0002" >BXXR0002</h2>
+
+
+  <div class="paragraph">
+  <div class="line-height">
+  <h2>・印刷オプション</h2>
+  </div>
+    <h2>
+    <div class="line-height1">
+    <br>印刷設定：
+        <input type="radio" name="report_set" value="mono" checked="checked">モノクロ
+        <input type="radio" name="report_set" value="color" >カラー&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="report_set" value="only_mono" >モノクロのみ
+        <input type="radio" name="report_set" value="onlr_color" >カラーのみ
+    <br>印刷順　：
+        <input type="radio" name="report_order" value="first" checked="checked">最初から
+        <input type="radio" name="report_order" value="last">最後から
+        <input type="radio" name="report_order" value="only_first">最初からのみ
+        <input type="radio" name="report_order" value="only_last">最後からのみ
+    </div>
+    </h2>      
+</div>
+
+<div class="line-height">
+<h2>・帳票のセキュリティ区分：
+<input type="radio" name="report_security" value="normal_report" checked="checked">通常帳票
+<input type="radio" name="report_security" value="critical_report">重要帳票
+</h2>
+</div>
+
+<a target="_blank" href="http://www.google.com" class="btn-square" >印刷</a>
+<!-- googleのURLのところでAPI呼び出し？ -->
+
+<h2>&#9632;出力</h2>
+<hr>
+<h2>・画面操作区分：x <br>
+  <!-- Universal linkの戻り値を表示 -->
+  <div class="paragraph">
+  <div class="line-height2">
+    ・印刷オプション
+  </div>
+  <div class="line-height3">
+    <br>印刷設定：1
+  </div>
+    <br>印刷順　：2
+  </div>
+
+
+
+
 <!-- <div class="font-red">クラスと組み合わせるああああああ</div> -->
 
 
 
 
-
+<!--  
 <a target="_blank" href="https://www.google.com">Google</a>
 <br>
 <a routerLink="/">ホーム</a>

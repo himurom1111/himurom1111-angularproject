@@ -1,7 +1,47 @@
+.line-height {
+  line-height: 0;
+}
+
+.line-height1 {
+  line-height: 0.5;
+}
+
+.line-height2 {
+  line-height: 2.5;
+}
+
+.line-height3 {
+  line-height: 0.3;
+}
+
+.paragraph {
+  margin-left: 2rem;
+  text-indent: -2rem;
+}
+
+.btn-square {
+  display: inline-block;
+  text-align: right;
+  padding: 0.3em 3.5em;
+  position: relative; /* 今の位置を基準 */
+  top: 0px; /* 上から10px */
+  left: 550px; /* 左から20px */
+
+  background: green; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 40px 40px 40px 40px;
+}
+.btn-square:active {
+  /*ボタンを押したときAPI呼び出し？*/
+  /* -webkit-transform: translateY(4px); */
+  /* transform: translateY(4px);下に動く */
+  /* border-bottom: none;線を消す */
+}
 
 .font-red {
-   color:red;
-   font-size: 50px;
+  color: red;
+  font-size: 50px;
 }
 
 /*
