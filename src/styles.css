@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Global Styles 
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
@@ -22,7 +22,7 @@ router-outlet + *  {
 }
 
 /* Text */
-
+/*  
 h1 {
   font-size: 32px;
 }
